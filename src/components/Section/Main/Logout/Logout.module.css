@@ -1,0 +1,24 @@
+.logout {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #1FB6FF;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 25px;
+    margin: 0 auto;
+}

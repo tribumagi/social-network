@@ -1,0 +1,21 @@
+.photos {
+    padding: 20px;
+    background-color: #FDFDFD;
+}
+
+.photos img {
+    width: 100%;
+    transition: opacity .2s linear;
+}
+
+.photos img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.photosInner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+

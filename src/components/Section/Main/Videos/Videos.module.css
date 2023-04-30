@@ -1,0 +1,21 @@
+.videos {
+    padding: 20px;
+    background-color: #FDFDFD;
+}
+
+.videos img {
+    width: 100%;
+    transition: opacity .2s linear;
+}
+
+.videos img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.videosInner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
